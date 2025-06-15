@@ -47,4 +47,4 @@ COPY --from=deps /app/.env ./.env
 EXPOSE 3000
 
 # Start the Next.js production server
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]
